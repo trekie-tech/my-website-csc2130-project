@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document></title>
+</head>
+<body>
+    <pre>
+    <fieldset>
+        <legend>Student Registratoin Form</legend>
+        <form action="" method="GET">
+            <label for="name">Fullname:</label>
+            <input type="text" id="name" name="name" placeholder="Enter Your Name" minlength="3" maxlength="50" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Example@gmail.com" minlength="6" maxlength="30" required>
+            <label for="age">Age</label>
+            <input type="number" id="age" name="age" min="18" max="35" required>
+            <label for="gender" > Gender</label>
+
+                <label for="gender">Male</label><input type="radio"  id="gender" name="gender" value="male" checked>
+                <label for="gender">Female</label><input type="radio" id="gender" name="gender" value="female">
+
+                <select name="course" id="course">
+                    <option value="Computer Science" selected>computer Science</option>
+                    <option value="Information Technology">Information Technology</option>
+                    <option value="Software Engineering">Software Engineering</option>
+                    <option value="Cyber Security">Cyber Security</option>
+                    <br><br>
+                </select>
+                <label for="Student ID">Student ID</label>
+                <textarea name="Student ID" id="Student ID" value="CSC2026001" readonly>CSC2026001</textarea>
+                <bUtton type="submit">Register</bUtton>
+        </form>
+    </fieldset>
+    </pre>
+</body>
+</html>
